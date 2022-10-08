@@ -1,0 +1,35 @@
+body{
+ background-color: pink;  
+}
+nav, footer{ 
+    color: black;
+}
+h1, h2, h3{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 300%;
+}
+h1:hover {
+    color: black;
+    cursor: pointer;
+  }
+h4{
+    color: black;
+    margin-left: 25%;
+}  
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+h5{
+    color: white;
+    margin-left: 35%;
+    font-size: 250%;
+    margin-right: 35%;
+}  
+h6{
+    text-align: center;
+}
