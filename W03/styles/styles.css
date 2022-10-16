@@ -10,21 +10,26 @@ img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue;
+
 }
 p {
     width: 80%;
 }
 a {
     font-size: 1.5em;
+    color: white;
+    padding: 25px;
 }
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 nav, footer {
     text-align: center;
     background-color: steelblue;
     color: white;
-    padding: 10px;
+    
 }
 main p {
     width: 80%;
@@ -34,8 +39,19 @@ main p {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 a:hover {
     background-color: white;
     color: steelblue;
+}
+footer {
+    background-color: steelblue;
+    color: white;
+}
+nav {
+    padding: 25px;
+}
+body {
+    margin: 0
 }
