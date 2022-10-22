@@ -176,6 +176,7 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  height: 400px;
 }
 .red6 {
   width: 40%; 
