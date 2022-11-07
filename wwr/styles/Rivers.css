@@ -43,6 +43,8 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #6f7364;
+    text-align: center;
+    align-content: center;
 }
 nav a:hover{
     background-color: #e8c39e;
@@ -118,7 +120,7 @@ footer a:hover{
 }
 #hero-img{
     width: 100%;
-    margin-top: -200px;
+    
 }
 footer p{
     font-size: 1.2em;
@@ -236,4 +238,9 @@ nav{
     footer {
         margin-top: 25px;
     }
+}
+h1{
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
