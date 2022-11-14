@@ -32,17 +32,22 @@ main section{
     grid-column: 1/11;
     grid-row: 4/9;
 }
+#background1{
+    height: 740px;
+    background-color: white;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+#desolation{
+    height: 520;
+    background-color: #ffffff;
+}
 body{
     background-color: #ffffff;
     font-family: "M PLUS 1p", Tahoma, verdana;
     font-size: 22px;
     margin: 0;
     padding: 0;
-}
-header{
-    display: grid;
-    grid-template-columns: 150px auto;
-    background-color: #6f7364;
 }
 nav a:hover{
     background-color: #e8c39e;
@@ -71,6 +76,14 @@ nav a:hover{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px darkgray;
 }
+.msg1{
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px darkgray;
+}
 footer{
     background-color: #6f7364;
     padding: 25px 50px;
@@ -89,7 +102,16 @@ footer{
     color: white;
     font-family: "M PLUS 1p", Tahoma, verdana;
 }
+.msg1 h2{
+    color: white;
+    font-family: "M PLUS 1p", Tahoma, verdana;
+}
 .msg p{
+    color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg1 p{
     color: #ffffff;
     font-size: .8em;
     padding-bottom: 15px;
@@ -175,7 +197,7 @@ nav{
     grid-template-columns: repeat(10, 1fr);
 
 }
-.card-img, .mountains{
+.card-img, .mountains, .desolation{
     width: 100%;
 }
 .rivers-card{
@@ -195,7 +217,11 @@ nav{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px darkgrey;
 }
-
+.desolation{
+    grid-column: 6/10;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px darkgrey;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -228,7 +254,10 @@ nav{
     #background {
         display: none;
     }
-    .mountains, .msg {
+    #desolation {
+        display: none;
+    }
+    .mountains, .msg, .desolation{
         width: 80%;
         display: block;
         margin: 0 auto;
