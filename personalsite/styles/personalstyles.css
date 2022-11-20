@@ -70,7 +70,7 @@ nav a:hover{
     text-decoration: underline;
 }
 .msg{
-    background-color: #6f7364;
+    background-color: white;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -78,7 +78,7 @@ nav a:hover{
     box-shadow: 5px 5px 10px darkgray;
 }
 .msg1{
-    background-color: #6f7364;
+    background-color: white;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 2/6;
