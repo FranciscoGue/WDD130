@@ -100,20 +100,20 @@ footer{
     margin-top: 10px;
 }
 .msg h2{
-    color: white;
+    color: black;
     font-family: "M PLUS 1p", Tahoma, verdana;
 }
 .msg1 h2{
-    color: white;
+    color: black;
     font-family: "M PLUS 1p", Tahoma, verdana;
 }
 .msg p{
-    color: #ffffff;
+    color: black;
     font-size: .8em;
     padding-bottom: 15px;
 }
 .msg1 p{
-    color: #ffffff;
+    color: black;
     font-size: .8em;
     padding-bottom: 15px;
 }
