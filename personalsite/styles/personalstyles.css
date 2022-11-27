@@ -77,11 +77,24 @@ nav a:hover{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px darkgray;
 }
+.web{
+    grid-column: 5/8;
+    grid-row: 10/15;
+    font-size: xx-large;
+}
 .msg1{
     background-color: white;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 2/6;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px darkgray;
+}
+.msgm{
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/12;
     grid-row: 2/3;
     box-shadow: 5px 5px 10px darkgray;
 }
@@ -103,11 +116,11 @@ footer{
     color: black;
     font-family: "M PLUS 1p", Tahoma, verdana;
 }
-.msg1 h2{
+.msg1 h2,.msgm h2{
     color: black;
     font-family: "M PLUS 1p", Tahoma, verdana;
 }
-.msg p{
+.msg p, .msgm p{
     color: black;
     font-size: .8em;
     padding-bottom: 15px;
@@ -222,6 +235,22 @@ nav{
     grid-column: 6/10;
     grid-row: 2/3;
     box-shadow: 5px 5px 10px darkgrey;
+}
+.video, #video{
+    grid-column: 4/8;
+    grid-row: 3/5;
+}
+.videom, #videom{
+    grid-column: 2/7;
+    grid-row: 3/5;
+}
+.videom1, #videom1{
+    grid-column: 6/11;
+    grid-row: 5/7;
+}
+.videom2, #videom2{
+    grid-column: 2/7;
+    grid-row: 7/9;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
