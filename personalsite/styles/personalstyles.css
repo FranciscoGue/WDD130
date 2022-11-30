@@ -10,6 +10,26 @@ nav a{
     padding: 25px;
     font-size: 30px;
 }
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px white;
+  }
+  
+  .button:hover {background-color: gray}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 #hero-msg h1{
     text-align: center;
 }
@@ -29,7 +49,7 @@ main section{
 }
 #background{
     height: 727px;
-    background-color: #e8c39e;
+    background-color: white;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -51,7 +71,7 @@ body{
     padding: 0;
 }
 nav a:hover{
-    background-color: #e8c39e;
+    
     color: #ffffff;
     text-decoration: underline;
 }
